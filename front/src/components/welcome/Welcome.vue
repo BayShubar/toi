@@ -5,6 +5,7 @@
 </template>
 
 <script>
+//Duisebay Yerkebulan
 export default {
   name: 'welcome',
   computed:{
