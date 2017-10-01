@@ -9,6 +9,7 @@
       <ul class="nav navbar-nav navbar-right">
       	<li><a class="menu" href="#">Домой</a></li>
       	<li><a class="menu" href="#">Поиск</a></li>
+        <li><a class="menu" href="#">Активы</a></li>
         <li><a class="menu"  href="#">Регистрация</a></li>
         <li><a class="menu" href="#">Войти</a></li>
       </ul>
@@ -38,6 +39,9 @@
 .menu:hover{
 	background-color: white;
 	border-bottom: 2px solid #767676;
+}
+.menu:active{
+  background-color: none;
 }
 .logo{
 	height:"40px";
