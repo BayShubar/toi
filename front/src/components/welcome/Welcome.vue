@@ -1,13 +1,13 @@
 <template>
-  <div class="container">
+  <div class="container main">
     <div class="col-md-offset-10 col-md-offset-1 holder">
-    <div class="container">
-         <div class="col-md-7  slogan">
-           <h1 class="logan">ToiLa</h1>
-           <h2 class="slogan-text">Бронируйте уникальное ресторан и звезд для вашего праздника.</h2>
-         </div>
-    </div><br><br>
-          <search></search>
+      <div class="container">
+           <div class="col-md-7  slogan">
+             <h1 class="logan">ToiLa</h1>
+             <h2 class="slogan-text">Бронируйте хорошие рестораны и звезд для вашего праздника.</h2>
+           </div>
+      </div><br><br>
+          <search></search><br><br>
           <categories></categories>
           <br><br><br>
     </div>
@@ -35,8 +35,11 @@ export default {
 </script>
 
 <style scoped>
+.main{
+  
+}
 .holder{
-
+  padding-top: 20px;
 }
 .slogan{
   background-color: white;

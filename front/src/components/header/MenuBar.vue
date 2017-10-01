@@ -7,7 +7,6 @@
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
-      	<li><a class="menu" href="#">Домой</a></li>
       	<li><a class="menu" href="#">Поиск</a></li>
         <li><a class="menu" href="#">Активы</a></li>
         <li><a class="menu"  href="#">Регистрация</a></li>
@@ -32,7 +31,7 @@
 }
 .menu{
 	color:#767676;
-	margin-right: 17px;
+	margin-left: 17px;
 	font-size: 14px;
   font-family: Arial, Helvetica, sans-serif;
 }
